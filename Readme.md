@@ -26,3 +26,9 @@ The objective of this project is to implement and compare multiple classificatio
 - **Logistic Regression, Decision Tree, Naive Bayes, and Random Forest** all achieved perfect scores on the hold-out test set, suggesting the dataset might be linearly separable or have very clear boundaries.
 - **KNN** performed slightly lower on accuracy (96%) but still maintained perfect AUC, indicating high discriminative power with minor misclassifications.
 - The models are saved in the `model/` directory and served via a **Streamlit** dashboard.
+
+## How to Run
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Train models: `python multimodalmlproject.py`
+3. Run App: `streamlit run streamlit_app.py`
